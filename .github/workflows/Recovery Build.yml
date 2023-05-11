@@ -14,23 +14,23 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/johnt1989/android_device_nubia_nx659j'
+        default: 'https://github.com/DrBrown28/NX679S-DEVICE-TREE.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'test'
+        default: 'Android-12'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/nubia/NX659J'
+        default: 'device/nubia/NX679S'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'NX659J'
+        default: 'NX679S'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_NX659J'
+        default: 'omni_NX679S'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
